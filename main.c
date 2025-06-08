@@ -21,9 +21,6 @@ int main() {
                 indice_menor = j;
             }
         }
-        temp = array[indice_menor];
-        array[indice_menor] = array[i];
-        array[i] = temp;
     if(indice_menor != i){
         temp = array[indice_menor];
         array[indice_menor] = array[i];
